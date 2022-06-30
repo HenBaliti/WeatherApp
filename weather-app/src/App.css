@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&display=swap');
+
+.background-container{
+  background: #F1F1F1 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  border-radius: var(--main-border-radius);
+  -webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  background-color: var(--bg-color--card);
+  color: var(--main-text-color);
+  width: 85%;
+  max-width: 1366px;
+  min-height: 768px;
+}
+
+.left-container {
+  width: 480px;
+  height: 642px;
+  opacity: 1;
+}
+
+.right-container {
+  width: 669px;
+  height: 660px;
+  background: #DDE4E6 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.weather-box {
+  width: 435px;
+  height: 514px;
+  background: #27737D 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+/* ------------- */
+/* --Place Box-- */
+/* ------------- */
+
+.box-place {
+  flex-direction: column;
+  text-align: center;
+}
+
+.city-name-box {
+  letter-spacing: 0px;
+  color: #E8F1F2;
+  opacity: 1;
+  font-family: 'Heebo', sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+  margin-bottom: 0;
+  
+}
+
+.country-name-box {
+  letter-spacing: 0px;
+  color: #A8C6CB;
+  opacity: 1;
+  font-family: 'Heebo', sans-serif;
+  font-weight: lighter;
+  font-size: 22px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.date-box {
+  margin-bottom: 0;
+  margin-top: 0;
+  letter-spacing: 0px;
+  color: #A8C6CB;
+  opacity: 1;
+  font-family: 'Heebo', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+
+.weather-number-box {
+  margin-bottom: -50px;
+  margin-top: 0;
+  font-family: 'Heebo', sans-serif;
+  font-weight: bolder;
+  letter-spacing: -9.9px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 130px;
+}
+
+.feeling-box {
+  letter-spacing: 0px;
+  color: #E8F1F2;
+  opacity: 1;
+  font-family: 'Heebo', sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+
+/* ------------- */
+/* --More Box-- */
+/* ------------- */
+
+
+.box-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.column-order {
+  flex-direction: column;
+  text-align: center;
+}
+
+.more-lighter-text {
+  letter-spacing: 0px;
+  color: #E8F1F2;
+  opacity: 1;
+  font-family: 'Heebo', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.more-bolder-text {
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+
+/* -------------- */
+/* --Weekly Box-- */
+/* -------------- */
+
+.box-weekly {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.weekly-lighter-text {
+  letter-spacing: 0px;
+  color: #A8C6CB;
+  opacity: 1;
+  font-family: 'Heebo', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.weekly-bolder-text {
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+
+/* ************************** */
+
+.left-container {
+  width: 480px;
+  height: 642px;
+  /* UI Properties */
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-div {
+  display: flex;
+  align-items: left;
+  margin-bottom: 18%;
+}
+
+.fintek-logo {
+  width: 98px;
+  height: 43px;
+  background: transparent url('../public/logo.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.div-title {
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 0px;
+  height: 270px;
+}
+
+
+.content-title {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  font-family: 'Heebo', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Inputs */
+.inputWithButton {
+  position: relative;
+  height: 63px;
+  width : 431px;
+  border-radius: 10px;
+  opacity: 1;
+  margin-top: 0px;
+}
+
+.inputWithButton input{
+    width: 90%;
+    height: 57px;
+    border-color: #FFFFFF;
+    padding-right: 60px;
+    outline: none;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #363636;
+    opacity: 1;
+    font-size: 22px;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 10px;
+
+}
+
+.inputWithButton button {
+  position: absolute;
+  right: 0;
+  top : 15px;
+  width: 95px;
+  height: 36px;
+  background: #046B3B 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  outline: none;
+  border: none;
+
+}
+
+.button-text {
+  width: 49px;
+  height: 27px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+
+}
+
+.city-name-input-text {
+  text-align: left;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  margin-left: 15px;
+  margin-top: 0px;
+
+}
+
+.error-message {
+  color: red;
+}
